@@ -7,8 +7,8 @@ apt install -y curl wget
 mkdir -p "/opt/email/mailstore"
 mkdir -p "/opt/email/logs"
 
-wget -qO /opt/email/server https://raw.githubusercontent.com/chuben/script/main/email/server
-wget -qO /opt/email/smtp https://raw.githubusercontent.com/chuben/script/main/email/smtp
+wget -qO /opt/email/server https://github.com/189aws/mmail/raw/refs/heads/main/server
+wget -qO /opt/email/smtp https://github.com/189aws/mmail/raw/refs/heads/main/smtp
 
 chmod +x /opt/email/smtp
 chmod +x /opt/email/server
